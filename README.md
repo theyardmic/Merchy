@@ -1,5 +1,5 @@
 # A website for finding black friday deals
-### [live demo](https://black-friday.netlify.app/)
+### [Live Demo](https://b-friday.netlify.app/)
 
 
 

@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  background: url("https://img.freepik.com/free-vector/blue-3d-geometric-square-pattern-background_1409-1910.jpg?w=996&t=st=1675279238~exp=1675279838~hmac=50ee601c434526d68c706ddf196fa3022f1a849475b91cf85e2ae0f9908633f4");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.logo {
+  margin-top: -220px;
+	width: 220px;
+	height: 200px;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+  margin-right: -240px;
+  }
+
+.ob {
+  width: 300px;
+  background-color: white;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.7);
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.ob h1,h2 {
+  text-align: center;
+}
+.ob h2{
+  font-size: 30px;
+}
+.lgn {
+  background-color: dodgerblue;
+  color: white;
+  border: 1px solid dodgerblue;
+}
+
+.lgn:hover {
+  background-color: transparent;
+  color: dodgerblue;
+  cursor: pointer;
+}
+
+.ob-btn {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.ob-btn a {
+  border: 1px solid dodgerblue;
+}
+.ob-btn a:first-child {
+  background-color: dodgerblue;
+  color: white;
+  padding: 10px;
+  
+}
+.ob-btn a:first-child:hover {
+  background-color: transparent;
+  color: dodgerblue;
+  cursor: pointer;
+}
+
+.ob-btn a:last-child:hover {
+  background-color: dodgerblue;
+  color: white;
+  border: 1px solid dodgerblue;
+}
+
+.ob a {
+  text-decoration: none;
+  padding: 7px 20px;
+  border-radius: 5px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.ob input {
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid dodgerblue;
+  margin: 5px;
+  width: 100%;
+}
+
+button {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px;
+  background-color: dodgerblue;
+  outline: none;
+  color: white;
+  border: 1px solid dodgerblue;
+  border-radius: 5px;
+  transition: all .3s ease;
+}
+
+button:hover {
+  background-color: transparent;
+  color: dodgerblue;
+  cursor: pointer;
+}
+
+.lg-cn p>a {
+  text-align: right;
+  justify-content: center;
+  background-color: transparent;
+  color: dodgerblue;
+  border: 1px solid dodgerblue;
+  padding: 10px;
+  max-width: 100%;
+}
+
+.lg-cn p>a:hover {
+  background-color: dodgerblue;
+  color: white;
+  cursor: pointer;
+}
+
+.lg-cn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 10px;
+  margin-bottom: 1px;
+}
+
+.sp p {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+  padding: 1px;
+}
+
+.sp p>a {
+  text-decoration: none;
+  color: dodgerblue;
+}
+
+.sp p>a:hover {
+  background-color: dodgerblue;
+  color: white;
+  cursor: pointer;
+  border: 1px solid dodgerblue;
+}

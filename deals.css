@@ -1,0 +1,59 @@
+body {
+	margin: 0;
+	background: url("https://img.freepik.com/free-vector/blue-3d-geometric-square-pattern-background_1409-1910.jpg?w=996&t=st=1675279238~exp=1675279838~hmac=50ee601c434526d68c706ddf196fa3022f1a849475b91cf85e2ae0f9908633f4");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow: hidden;
+  }
+  
+  .nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: transparent;
+	position: fixed;
+	width: 100%;
+	margin-top: 5px;
+	padding-bottom: 0;
+	right: 5px;
+  }
+  
+  /*logo*/
+  
+  .logo {
+	width: 220px;
+	height: 200px;
+	margin-top: -60px;
+	align-items: left;
+	margin-left: 20px;
+  }
+  
+  /*navbar positioning*/
+  
+  .nav a {
+	color: white;
+	float: left;
+	display: inline;
+	text-align: right;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 17px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-top: -60px;
+  }
+  
+  .nav li a:hover {
+	background-color: white;
+	color: dodgerblue;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, .2);
+  }
+  
+  .nav li {
+	list-style: none;
+	display: inline-block;
+  }

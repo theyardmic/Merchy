@@ -1,0 +1,315 @@
+body {
+	margin: 0;
+	background: url("https://img.freepik.com/free-vector/blue-3d-geometric-square-pattern-background_1409-1910.jpg?w=996&t=st=1675279238~exp=1675279838~hmac=50ee601c434526d68c706ddf196fa3022f1a849475b91cf85e2ae0f9908633f4");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow: hidden;
+  }
+  
+  .nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: transparent;
+	position: fixed;
+	width: 100%;
+	margin-top: 5px;
+	padding-bottom: 0;
+	right: 5px;
+  }
+  
+  /*logo*/
+  .logo {
+	width: 220px;
+	height: 200px;
+	margin-top: -60px;
+	align-items: left;
+	margin-left: 20px;
+  }
+
+  /*navbar positioning*/
+  
+  .nav a {
+	color: white;
+	float: left;
+	display: inline;
+	text-align: right;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 17px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-top: -60px;
+  }
+  .nav li a:hover {
+ background-color: white;
+ color: dodgerblue;
+ border: none; 
+ border-radius: 5px;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, .2);
+}
+  
+  .nav li {
+	list-style: none;
+	display: inline-block;
+  }
+  
+  .container ul>li>a:hover {
+	color: rgba(0, 0, 255, 0.95);
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, .2);
+	cursor: pointer;
+  }
+  
+  .container {
+	display: inline-block;
+	flex-direction: column;
+	align-items: left;
+	height: 100vh;
+	justify-content: center;
+  }
+  
+  .container h1 {
+	font-size: 80px;
+	color: white;
+	font-family: 'lucida sans unicode', 'lucida grande', 'lucida sans', arial, sans-serif;
+	letter-spacing: 1px;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
+	text-align: left;
+	justify-content: center;
+	max-width: 100%;
+	padding-top: 70px;
+  }
+  
+  p {
+	font-size: 26px;
+	color: white;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	text-align: left;
+	margin-top: -50px;
+  }
+  
+  p.hero-text {
+	padding-top: 10px;
+	font-size: 25px;
+	padding-bottom: 20px;
+  }
+  
+  p.hero-text-2 {
+	margin-left: 50px;
+	font-size: 20px;
+	margin-top: 5px;
+	font-family: 'Segoe UI', "Tahoma", Geneva, Verdana, sans-serif;
+  }
+  
+  .container img {
+	
+	max-height: 100vh;
+	height: 605px;
+	object-fit: cover;
+	justify-content: right;
+	align-items: right;
+	margin-top: 50px;
+	position: absolute;
+	max-width: 50%;
+	right: 0;
+	
+  }
+  
+  .container .btn,
+  .pp-btn {
+	display: flex;
+	border: 0;
+	cursor: pointer;
+	justify-content: center;
+	align-items: left;
+	width: 200px;
+	height: 50px;
+	background: #FF5F1F;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: 600;
+	color: white;
+	margin-top: 10px;
+	cursor: pointer;
+  }
+  
+  #btn {
+	position: relative;
+	margin-left: 17px;
+	align-items: center;
+	display: inline-block;
+	width: 118px;
+	background-color: whitesmoke;
+	color: rgba(30, 144, 255, 2);
+	font-size: 17px;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+  }
+  
+  #btn a{
+	text-decoration: none;
+	color: dodgerblue;
+  }
+  
+  #btn a:hover {
+	border: 1px solid white;
+	color: dodgerblue;
+	border-radius: 5px;
+	background-color: transparent;	
+  }
+  
+  
+  
+  .hero-text,
+  .hero-sec {
+	margin-left: 50px;
+  }
+  
+  .sb input::placeholder {
+	text-align: left;
+	padding: 0;
+	margin: 0;
+  }
+  
+  .pp-cont {
+	position: fixed;
+	left: 50%;
+	width: 300px;
+	height: 15em;
+	top: 30%;
+	transform: translateX(-50%);
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	background: url("https://images.unsplash.com/photo-1513094735237-8f2714d57c13?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80");
+	background-size: cover;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, .2);
+	transition: ease-in-out 0.3s;
+	opacity: 1;
+  }
+  
+  h4 {
+	font-size: 40px;
+	margin: 10px 0;
+	color: lightgoldenrodyellow;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .fa-search {
+	align-items: right;
+  }
+  /*searchbar*/
+  .sb {
+	max-width: 50%;
+	color: lightgrey;
+	align-items: center;
+	text-align: left;
+	display: flex;
+	margin-top: -56px;
+	margin-left: 240px;
+	justify-content: center;
+	border-radius: 15px;
+	box-shadow: 0 4 101 rgba(0, 0, 0, .2);
+	background-color: transparent;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	padding-top: 0;
+	border: 1px solid white;
+  }
+  
+/*searchbar input*/
+  .sb input {
+	color: lightgrey;
+	background-color: transparent;
+  }
+  
+/*searchbar background*/
+  #sb {
+	background-color: rgba(0, 0, 255, 0.4);
+  }
+  
+/*searchbar icon */
+  .sb-icon {
+	font-size: 30px;
+	margin-right: 10px;
+	align-items: right;
+	display: flex;
+	justify-content: right;
+	color: white;
+	background-color: transparent;
+  }
+  
+  .sb a {
+	text-decoration: none;
+	background-color: transparent;
+	align-items: right;
+	padding-right: 0;
+  }
+  
+  .sb input:active,
+  .sb input:focus {
+	outline: 0;
+  }
+  
+/* pop up email placeholder*/
+  ::placeholder {
+	font-size: 18px;
+	color: lightgray;
+  }
+  
+  .sb input {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 20px;
+	border-radius: 0;
+	text-align: left;
+	background-color: transparent;
+	color: white;
+  }
+  
+  input {
+	background-color: transparent;
+  }
+  
+  label {
+	font-size: 20px;
+	color: lightgoldenrodyellow;
+	padding: 10px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  /*pop up button*/
+  .pp-btn {
+	background-color: #FF5F1F;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	justify-items: center;
+	font-size: 20px;
+	color: white;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	border: 2px solid;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  .btn-text {
+	justify-items: center;
+	margin-top: 10px;
+  }
+  
+/*pop up input*/
+  input {
+	margin: 10px 0;
+	padding: 10px;
+	font-size: 20px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	border: 2px;
+	border-radius: 5px;
+  }
+  
+  

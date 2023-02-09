@@ -33,53 +33,47 @@ body {
 
 /*navbar positioning*/
 
-
-  .nav {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	color: transparent;
-	position: top;
-	width: 100%;
-	margin-top: -50px;
-	padding-bottom: 0;
-	right: 5px;
-  }
- 
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: transparent;
+  position: top;
+  width: 100%;
+  margin-top: -50px;
+  padding-bottom: 0;
+  right: 5px;
+}
 
 /*navbar color*/
 
-
-  .nav a {
-	color: white;
-	float: left;
-	display: inline;
-	text-align: right;
-	padding: 10px 20px;
-	text-decoration: none;
-	font-weight: 500;
-	font-size: 17px;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	margin-top: -60px;
-  }
-  
+.nav a {
+  color: white;
+  float: left;
+  display: inline;
+  text-align: right;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 17px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: -60px;
+}
 
 /*navbar hover*/
 
+.nav li a:hover {
+  background-color: white;
+  color: dodgerblue;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .2);
+}
 
-  .nav li a:hover {
-	background-color: white;
-	color: dodgerblue;
-	border: none;
-	border-radius: 5px;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, .2);
-  }
-  
-  .nav li {
-	list-style: none;
-	display: inline-block;
-  }
-
+.nav li {
+  list-style: none;
+  display: inline-block;
+}
 
 a {
   color: white;
@@ -87,29 +81,27 @@ a {
 }
 
 /*cards*/
-.d-cards{
-display: flex;
+
+.d-cards {
+  display: flex;
+  align-items: left;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
   margin-top: 50px;
   margin-bottom: 50px;
-  gap: 80px;
+  gap: 5em;
 }
-.p-card {
-	align-items: center;
-	justify-content: center;
 
+.p-card {
+  align-items: center;
+  justify-content: center;
   width: 300px;
   position: relative;
-  margin-top:-50px;
+  margin-top: -50px;
   background: #fafafa;
   box-shadow: 0 2px 7px #dfdfdf;
   border-radius: 0 0 12px 12px;
-  display:inline-block;
-  
-  
-
+  display: inline-block;
 }
 
 .badge {
@@ -200,8 +192,6 @@ display: flex;
   color: #333;
 }
 
-
-
 .p-price small {
   font-size: 75%;
   font-weight: 700;
@@ -210,8 +200,6 @@ display: flex;
   text-decoration: line-through;
   margin-right: 5px;
 }
-
-
 
 .p-links {
   text-align: right;
@@ -228,9 +216,8 @@ display: flex;
 
 .p-links a:hover {
   color: dodgerblue;
-	transform: scale(1.5);
-	transition: all .3s ease;
- 
+  transform: scale(1.5);
+  transition: all .3s ease;
 }
 
 }

@@ -176,8 +176,8 @@ padding-top: 20px;
 }
 
 .p-price small{
-	font-size: 80%;
-  font-weight: 400;
+	font-size: 75%;
+  font-weight: 700;
   color: #999;
   display: inline-block;
   text-decoration: line-through;
@@ -185,4 +185,27 @@ padding-top: 20px;
 
 }
 
+.p-links{
+	text-align: right;
+}
+
+
+.p-links a {
+display: inline-block;
+margin-left: 10px;
+color: #333;
+font-size: 16px;
+font-weight: 700;
+transition: all .3s ease;
+
+}
+
+
+
+
+.p-links a:hover{
+	color: dodgerblue;
+}
+
+}
 

@@ -43,14 +43,14 @@ body {
   font-size: 30px;
 }
 .lgn {
-  background-color: dodgerblue;
+  background-color: rgba(33, 3, 68, 0.966);
   color: white;
-  border: 1px solid dodgerblue;
+  border: 1px solid rgba(33, 3, 68, 0.966);
 }
 
 .lgn:hover {
   background-color: transparent;
-  color: dodgerblue;
+  color: rgba(33, 3, 68, 0.966);
   cursor: pointer;
 }
 
@@ -62,24 +62,24 @@ body {
 }
 
 .ob-btn a {
-  border: 1px solid dodgerblue;
+  border: 1px solid rgba(33, 3, 68, 0.966);
 }
 .ob-btn a:first-child {
-  background-color: dodgerblue;
+  background-color: rgba(33, 3, 68, 0.966);
   color: white;
   padding: 10px;
   
 }
 .ob-btn a:first-child:hover {
   background-color: transparent;
-  color: dodgerblue;
+  color: rgba(33, 3, 68, 0.966);
   cursor: pointer;
 }
 
 .ob-btn a:last-child:hover {
-  background-color: dodgerblue;
+  background-color: rgba(33, 3, 68, 0.966);
   color: white;
-  border: 1px solid dodgerblue;
+  border: 1px solid rgba(33, 3, 68, 0.966);
 }
 
 .ob a {
@@ -98,7 +98,7 @@ body {
 .ob input {
   padding: 15px;
   border-radius: 5px;
-  border: 1px solid dodgerblue;
+  border: 1px solid rgba(33, 3, 68, 0.966);
   margin: 5px;
   width: 100%;
 }
@@ -107,17 +107,17 @@ button {
   font-size: 16px;
   font-weight: 500;
   padding: 10px;
-  background-color: dodgerblue;
+  background-color: rgba(33, 3, 68, 0.966);
   outline: none;
   color: white;
-  border: 1px solid dodgerblue;
+  border: 1px solid rgba(33, 3, 68, 0.966);
   border-radius: 5px;
   transition: all .3s ease;
 }
 
 button:hover {
   background-color: transparent;
-  color: dodgerblue;
+  color: rgba(33, 3, 68, 0.966);
   cursor: pointer;
 }
 
@@ -125,14 +125,14 @@ button:hover {
   text-align: right;
   justify-content: center;
   background-color: transparent;
-  color: dodgerblue;
-  border: 1px solid dodgerblue;
+  color: rgba(33, 3, 68, 0.966);
+  border: 1px solid rgba(33, 3, 68, 0.966);
   padding: 10px;
   max-width: 100%;
 }
 
 .lg-cn p>a:hover {
-  background-color: dodgerblue;
+  background-color: rgba(33, 3, 68, 0.966);
   color: white;
   cursor: pointer;
 }
@@ -156,12 +156,12 @@ button:hover {
 
 .sp p>a {
   text-decoration: none;
-  color: dodgerblue;
+  color: rgba(33, 3, 68, 0.966);
 }
 
 .sp p>a:hover {
-  background-color: dodgerblue;
+  background-color: rgba(33, 3, 68, 0.966);
   color: white;
   cursor: pointer;
-  border: 1px solid dodgerblue;
+  border: 1px solid rgba(33, 3, 68, 0.966);
 }

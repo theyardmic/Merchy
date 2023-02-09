@@ -47,7 +47,7 @@ body {
   
   .nav li a:hover {
 	background-color: white;
-	color: dodgerblue;
+	color: rgba(33, 3, 68, 0.966);
 	border: none;
 	border-radius: 5px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, .2);

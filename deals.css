@@ -125,12 +125,24 @@ a {
 }
 
 .p-category{
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
   color: #999;
   margin-bottom: 18px;
   display: block;
+}
+
+.p-details h4 a{
+font-weight: 700;
+display: block;
+margin-bottom: 18px;
+text-transform: uppercase;
+color: #333;
+
+
+
+
 }
 
 

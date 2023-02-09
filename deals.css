@@ -116,7 +116,6 @@ a {
   object-fit: cover;
   border-radius: 0 0 12px 12px;
   background-color: white;
- 
 }
 
 .p-img img {
@@ -124,91 +123,92 @@ a {
   max-height: 100vh;
   object-fit: cover;
   border-radius: 10px;
-  box-shadow: 0 4px 8px  #333;
+  box-shadow: 0 4px 8px #333;
+}
+
+/*pop-up animation	on hover*/
+
+.p-img img:hover {
+  transform: scale(1.1);
+  transition: all .3s ease;
 }
 
 .p-details {
   padding: 14px;
 }
 
-.p-category{
+.p-category {
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
   color: #999;
   margin-bottom: 18px;
   display: block;
-  
 }
 
-.p-details h4 a{
-font-weight: 700;
-display: block;
-margin-bottom: 18px;
-text-transform: uppercase;
-color: #333;
+.p-details h4 a {
+  font-weight: 700;
+  display: block;
+  margin-bottom: 18px;
+  text-transform: uppercase;
+  color: #333;
 }
 
-.p-details h4 a:hover{
-	color: dodgerblue;
+.p-details h4 a:hover {
+  color: dodgerblue;
 }
 
-.p-details p{
-	  font-size: 14px;
+.p-details p {
+  font-size: 14px;
   line-height: 1.5;
   color: #333;
   margin-bottom: 18px;
 }
 
-
-.p-bottom-details{
-overflow: hidden;
-border-top: 1px solid #eee;
-padding-top: 20px;
+.p-bottom-details {
+  overflow: hidden;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
 }
 
-.p-bottom-details div{
-	float: left;
-	width: 50%;
+.p-bottom-details div {
+  float: left;
+  width: 50%;
 }
 
-.p-price{
+.p-price {
   font-size: 18px;
   font-weight: 700;
   color: #333;
 }
 
-.p-price small{
-	font-size: 75%;
+.p-price small {
+  font-size: 75%;
   font-weight: 700;
   color: #999;
   display: inline-block;
   text-decoration: line-through;
   margin-right: 5px;
-
 }
 
-.p-links{
-	text-align: right;
+.p-links {
+  text-align: right;
 }
-
 
 .p-links a {
-display: inline-block;
-margin-left: 10px;
-color: #333;
-font-size: 16px;
-font-weight: 700;
-transition: all .3s ease;
-
+  display: inline-block;
+  margin-left: 10px;
+  color: #333;
+  font-size: 16px;
+  font-weight: 700;
+  transition: all .3s ease;
 }
 
-
-
-
-.p-links a:hover{
-	color: dodgerblue;
+.p-links a:hover {
+  color: dodgerblue;
+	transform: scale(1.5);
+	transition: all .3s ease;
+ 
 }
 
 }
-

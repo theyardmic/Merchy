@@ -12,15 +12,16 @@ body {
   font-family: "Montserrat", sans-serif;
   padding: 25px;
   margin: 0;
-  background: url("https://img.freepik.com/free-vector/blue-3d-geometric-square-pattern-background_1409-1910.jpg?w=996&t=st=1675279238~exp=1675279838~hmac=50ee601c434526d68c706ddf196fa3022f1a849475b91cf85e2ae0f9908633f4");
-  background-position: center;
-  background-size: cover;
+   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: black;
   scroll-behavior: smooth;
 }
 
+body{
+  background-color:rgba(33, 3, 68, 0.966);
+}
 /*logo*/
 
 .logo {
@@ -99,10 +100,15 @@ a {
   position: relative;
   margin-top: -50px;
   background: #fafafa;
-  box-shadow: 0 2px 7px #dfdfdf;
+  box-shadow: 0 2px 7px #030303;
   border-radius: 0 0 12px 12px;
   display: inline-block;
 }
+
+.p-card:hover{
+      transform: scale(1.1);
+    transition: all .3s ease;
+  }
 
 .badge {
   position: relative;
@@ -112,8 +118,9 @@ a {
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 700;
-  background-color: red;
+  background-color: rgba(33, 3, 68, 0.966);;
   padding: 3px 10px;
+  color:white;
 }
 
 .p-img {

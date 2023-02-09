@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	background: url("https://img.freepik.com/free-vector/blue-3d-geometric-square-pattern-background_1409-1910.jpg?w=996&t=st=1675279238~exp=1675279838~hmac=50ee601c434526d68c706ddf196fa3022f1a849475b91cf85e2ae0f9908633f4");
+	background-color:rgba(33, 3, 68, 0.966);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -48,7 +48,8 @@ body {
  color: dodgerblue;
  border: none; 
  border-radius: 5px;
- box-shadow: 0 4px 8px rgba(0, 0, 0, .2);
+ box-shadow: 0 4px 8px rgb(245, 243, 243);
+	
 }
   
   .nav li {
@@ -66,7 +67,7 @@ body {
   
   .container {
 	display: inline-block;
-	flex-direction: column;
+	flex-wrap: wrap;
 	align-items: left;
 	height: 100vh;
 	justify-content: center;
@@ -116,9 +117,13 @@ body {
 	position: absolute;
 	max-width: 50%;
 	right: 0;
-	
+	display: inline-block;
+
   }
-  
+   .container img:hover {
+	transform: scale(1.1);
+	transition: all .4s ease;
+  }
   .container .btn,
   .pp-btn {
 	display: flex;
@@ -136,6 +141,11 @@ body {
 	margin-top: 10px;
 	cursor: pointer;
   }
+  
+  .btn button:hover{
+		transform: scale(1.1);
+		transition: all .3s ease;
+	  }
   
   #btn {
 	position: relative;

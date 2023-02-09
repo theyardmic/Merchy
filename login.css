@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
 body {
   margin: 0;
   background-color:rgba(33, 3, 68, 0.966);
@@ -11,12 +11,13 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  font-family: "Montserrat", sans-serif;
+ 
 }
 
 * {
   box-sizing: border-box;
-  
+  font-family: "Montserrat", sans-serif;
+}
 
 .logo {
   margin-top: -220px;

@@ -18,6 +18,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: black;
+  scroll-behavior: smooth;
 }
 
 /*logo*/
@@ -86,8 +87,19 @@ a {
 }
 
 /*cards*/
-
+.d-cards{
+display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  gap: 80px;
+}
 .p-card {
+	align-items: center;
+	justify-content: center;
+
   width: 300px;
   position: relative;
   margin-top:-50px;
@@ -95,8 +107,9 @@ a {
   box-shadow: 0 2px 7px #dfdfdf;
   border-radius: 0 0 12px 12px;
   display:inline-block;
-  padding: 0;
-  margin: 0 10px 20px 10px;
+  
+  
+
 }
 
 .badge {

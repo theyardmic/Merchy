@@ -32,23 +32,23 @@ body {
 
 /*navbar positioning*/
 
-/*
+
   .nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	color: transparent;
-	position: fixed;
+	position: top;
 	width: 100%;
-	margin-top: 5px;
+	margin-top: -50px;
 	padding-bottom: 0;
 	right: 5px;
   }
-  navbar*/
+ 
 
 /*navbar color*/
 
-/*
+
   .nav a {
 	color: white;
 	float: left;
@@ -61,11 +61,11 @@ body {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	margin-top: -60px;
   }
-  */
+  
 
 /*navbar hover*/
 
-/*
+
   .nav li a:hover {
 	background-color: white;
 	color: dodgerblue;
@@ -78,7 +78,7 @@ body {
 	list-style: none;
 	display: inline-block;
   }
-*/
+
 
 a {
   color: white;

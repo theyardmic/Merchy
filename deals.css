@@ -139,10 +139,11 @@ display: block;
 margin-bottom: 18px;
 text-transform: uppercase;
 color: #333;
-
-
-
-
 }
+
+.p-details h4 a:hover{
+	color: dodgerblue;
+}
+
 
 

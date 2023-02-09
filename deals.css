@@ -17,7 +17,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  color: white;
+  color: black;
 }
 
 /*logo*/
@@ -80,33 +80,43 @@ body {
   }
 */
 
-
 a {
-	color: white;
-	text-decoration: none;
-  }
+  color: white;
+  text-decoration: none;
+}
 
-  /*cards*/
-  .p-card{
-width: 300px;
-position: relative;
-margin: 50px auto;
-background: #fafafa;
-box-shadow: 0 2px 7px #dfdfdf;
+/*cards*/
 
-  }
+.p-card {
+  width: 300px;
+  position: relative;
+  margin: 50px auto;
+  background: #fafafa;
+  box-shadow: 0 2px 7px #dfdfdf;
+}
 
-  .badge{
-position: absolute;
-left: 0;
-top:20px;
-text-transform: uppercase;
-font-size: 13px;
-font-weight: 700;
-color: #fff;
-padding:3px 10px;
-  }
+.badge {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  
+  padding: 3px 10px;
+}
 
-  .p-img{
-	
-  }
+.p-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  padding: 15px;
+  background-color: #f0f0f0;
+}
+
+.p-img img {
+  max-width: 100%;
+  max-height: 100%;
+}
+

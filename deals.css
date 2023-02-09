@@ -1,33 +1,19 @@
 html, body{
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 padding: 25px;
-
-}
-
-
-
-
-body {
 	margin: 0;
 	background: url("https://img.freepik.com/free-vector/blue-3d-geometric-square-pattern-background_1409-1910.jpg?w=996&t=st=1675279238~exp=1675279838~hmac=50ee601c434526d68c706ddf196fa3022f1a849475b91cf85e2ae0f9908633f4");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	overflow: hidden;
+	color: white;
+  }
+
+  a{
+	color:white;
   }
   
-  .nav {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	color: transparent;
-	position: fixed;
-	width: 100%;
-	margin-top: 5px;
-	padding-bottom: 0;
-	right: 5px;
-  }
   
   /*logo*/
   
@@ -40,8 +26,21 @@ body {
   }
   
   /*navbar positioning*/
-  
+  /*
+  .nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: transparent;
+	position: fixed;
+	width: 100%;
+	margin-top: 5px;
+	padding-bottom: 0;
+	right: 5px;
+  }
+  navbar*/
   /*navbar color*/
+  /*
   .nav a {
 	color: white;
 	float: left;
@@ -54,9 +53,9 @@ body {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	margin-top: -60px;
   }
-  
+  */
   /*navbar hover*/
-
+  /*
   .nav li a:hover {
 	background-color: white;
 	color: dodgerblue;
@@ -69,74 +68,8 @@ body {
 	list-style: none;
 	display: inline-block;
   }
-
-
-/*card wrapper*/
 /*
-.wrapper{
-width: 300px;
-height: 300px;
-background: #fff;
-margin: auto;
-position: relative;
-overflow: hidden;
-border-radius: 10px;
-box-shadow: 0;
-transform: scale(1);
-transition: box-shadow 0.5s ease, transform 0.5s ease;
-}
-&:hover{
-	transform: scale(1.1);
-	box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-}
 
-.product{
-width: 100%;
-height: 100%;
-position: absolute;
-.top{
-height: 80px;
-width: 100px;
-background: blue;
-background-size: cover;
-}
-
-.bottom{
-	width: 200%;
-	height: 100%;
-	transition: transform 0.5s ease;
-	&.clicked{
-		transform: translateX(-50%)
-	}
-
-h{
-	font-size: 20px;
-	font-weight: 500;
-	color: #000;
-	margin: 0;
-	padding: 0;
-}
-p{
-	font-size: 14px;
-	font-weight: 400;
-	color: #000;
-	margin: 0;
-	padding: 0;
-}
-
-.left{
-	height: 100%;
-	width: 50%;
-	float: left;
-
-}
-
-}
-}
+/*card */
 
 
-
-
-}	
-}
-*/

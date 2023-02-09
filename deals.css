@@ -175,4 +175,14 @@ padding-top: 20px;
   color: #333;
 }
 
+.p-price small{
+	font-size: 80%;
+  font-weight: 400;
+  color: #999;
+  display: inline-block;
+  text-decoration: line-through;
+  margin-right: 5px;
+
+}
+
 

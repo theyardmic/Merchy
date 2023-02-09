@@ -145,5 +145,11 @@ color: #333;
 	color: dodgerblue;
 }
 
+.p-details p{
+	  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 18px;
+}
 
 

@@ -93,6 +93,7 @@ a {
   margin: 50px auto;
   background: #fafafa;
   box-shadow: 0 2px 7px #dfdfdf;
+  border-radius: 0 0 12px 12px;
 }
 
 .badge {

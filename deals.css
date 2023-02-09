@@ -1,32 +1,38 @@
-html, body{
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-padding: 25px;
-	margin: 0;
-	background: url("https://img.freepik.com/free-vector/blue-3d-geometric-square-pattern-background_1409-1910.jpg?w=996&t=st=1675279238~exp=1675279838~hmac=50ee601c434526d68c706ddf196fa3022f1a849475b91cf85e2ae0f9908633f4");
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	color: white;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-  a{
-	color:white;
-  }
-  
-  
-  /*logo*/
-  
-  .logo {
-	width: 220px;
-	height: 200px;
-	margin-top: -60px;
-	align-items: left;
-	margin-left: 20px;
-  }
-  
-  /*navbar positioning*/
-  /*
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  padding: 25px;
+  margin: 0;
+  background: url("https://img.freepik.com/free-vector/blue-3d-geometric-square-pattern-background_1409-1910.jpg?w=996&t=st=1675279238~exp=1675279838~hmac=50ee601c434526d68c706ddf196fa3022f1a849475b91cf85e2ae0f9908633f4");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
+
+/*logo*/
+
+.logo {
+  width: 220px;
+  height: 200px;
+  margin-top: -60px;
+  align-items: left;
+  margin-left: 20px;
+}
+
+/*navbar positioning*/
+
+/*
   .nav {
 	display: flex;
 	justify-content: space-between;
@@ -39,8 +45,10 @@ padding: 25px;
 	right: 5px;
   }
   navbar*/
-  /*navbar color*/
-  /*
+
+/*navbar color*/
+
+/*
   .nav a {
 	color: white;
 	float: left;
@@ -54,8 +62,10 @@ padding: 25px;
 	margin-top: -60px;
   }
   */
-  /*navbar hover*/
-  /*
+
+/*navbar hover*/
+
+/*
   .nav li a:hover {
 	background-color: white;
 	color: dodgerblue;
@@ -68,8 +78,35 @@ padding: 25px;
 	list-style: none;
 	display: inline-block;
   }
-/*
-
-/*card */
+*/
 
 
+a {
+	color: white;
+	text-decoration: none;
+  }
+
+  /*cards*/
+  .p-card{
+width: 300px;
+position: relative;
+margin: 50px auto;
+background: #fafafa;
+box-shadow: 0 2px 7px #dfdfdf;
+
+  }
+
+  .badge{
+position: absolute;
+left: 0;
+top:20px;
+text-transform: uppercase;
+font-size: 13px;
+font-weight: 700;
+color: #fff;
+padding:3px 10px;
+  }
+
+  .p-img{
+	
+  }

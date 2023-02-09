@@ -108,22 +108,19 @@ body {
   
   .container img {
 	
-	max-height: 100vh;
-	height: 605px;
+	max-height: 90vh;
+	height: 600px;
 	object-fit: cover;
 	justify-content: right;
 	align-items: right;
-	margin-top: 50px;
+	margin-top: 40px;
 	position: absolute;
 	max-width: 50%;
 	right: 0;
 	display: inline-block;
 
   }
-   .container img:hover {
-	transform: scale(1.1);
-	transition: all .4s ease;
-  }
+   
   .container .btn,
   .pp-btn {
 	display: flex;

@@ -11,12 +11,12 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  font-family: "Montserrat", sans-serif;
 }
 
 * {
   box-sizing: border-box;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+  
 
 .logo {
   margin-top: -220px;

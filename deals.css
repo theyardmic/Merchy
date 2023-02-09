@@ -98,11 +98,11 @@ a {
 .badge {
   position: absolute;
   left: 0;
-  top: 20px;
+  top: 9px;
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
-  
+  background-color: red;
   padding: 3px 10px;
 }
 
@@ -114,6 +114,9 @@ a {
   width: 300px;
   padding: 10px;
   object-fit: cover;
+  border-radius: 0 0 12px 12px;
+  background-color: white;
+ 
 }
 
 .p-img img {
@@ -121,7 +124,7 @@ a {
   max-height: 100vh;
   object-fit: cover;
   border-radius: 10px;
-  
+  box-shadow: 0 4px 8px  #333;
 }
 
 .p-details {
@@ -135,7 +138,7 @@ a {
   color: #999;
   margin-bottom: 18px;
   display: block;
-  margin-top: -5px;
+  
 }
 
 .p-details h4 a{

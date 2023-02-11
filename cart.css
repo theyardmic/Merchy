@@ -23,6 +23,11 @@ body {
   }
   
   /*logo*/
+  .fa-bars{
+
+	display: none;
+
+  }
   
   .logo {
 	width: 220px;
@@ -67,7 +72,7 @@ body {
 	  }
 	
 	  li{ 
-		width: 100%;
+		width: 50%;
 	  }
 	
 	  .menu{

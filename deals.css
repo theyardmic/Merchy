@@ -32,6 +32,11 @@ body{
   margin-left: 20px;
 }
 
+.fa-bars{
+
+	display: none;
+
+  }
 /*navbar positioning*/
 
 .nav {

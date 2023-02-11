@@ -76,6 +76,35 @@ body {
 	
   }
   
+  @media(max-width: 768px){
+	nav,ul{
+	  flex-wrap: wrap;
+	  text-align: center;
+	  }
+	
+	  li{ 
+		width: 100%;
+	  }
+	
+	  .menu{
+		display: none;
+		transition: .2s;
+	  }
+	
+	  .fa{
+		font-size: 20px;
+		display: block;
+		position: absolute;
+		top: 0;
+		right: 0;
+		padding: 20px;
+		cursor: pointer;
+		color: white;
+		
+	  }
+	
+	}
+  
   .container h1 {
 	font-size: 80px;
 	color: white;

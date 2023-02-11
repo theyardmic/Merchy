@@ -81,7 +81,7 @@ a {
   text-decoration: none;
 }
 
-@media(max-width: 750px){
+@media(max-width: 768px){
   nav,ul{
     flex-wrap: wrap;
     text-align: center;
